@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #0005;
+}
+video{
+  width: 100vw;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  background: #0005;
+  position: fixed;
+}
+.main_video{
+  width: 100vw;
+  height: 40vh;
+  background: #0505;
+  overflow: hidden;
+  direction: flix;
+  flex-wrap: wrap;
+}
+.main_video video{
+  margin-top: 40px;
+}
+
+.play_list{
+  width: 100vw;
+  height: 60vh;
+  background: #0555;
+  position: fixed;
+  overflow-y: auto;
+}
+.list{
+  width: 94vw;
+  height: 10vh;
+  background: #055;
+  margin: 3vw;
+  overflow: hidden;
+  display: flex;
+}
+.play_list video{
+  width: auto;
+  height: 10vh;
+}
+.play_list .list h2{
+  color: black;
+  margin-left: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
